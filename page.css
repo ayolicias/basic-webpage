@@ -1,0 +1,88 @@
+
+body{
+  font-family: Arial;
+  padding: 10px;
+  background: green;
+}
+.profile{
+  font-family: sans-serif;
+  padding: 30px;
+  background: lightblue;
+}
+
+.profile h2 {
+  float: left;
+  margin-right: 2em;
+}
+.profile img{
+  border-radius: 50%;
+}
+.clearfix:before, .clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.city{
+  font-family: sans-serif;
+  padding: 30px;
+  background: pink;
+  text-align: left;
+}
+
+.city img{
+  float:left;
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  margin-right: 2em;
+}
+.container{
+  height:auto;
+  width: inherit;
+}
+
+.table{
+  font-family: cursive;
+  padding: 10px;
+  background: brown;
+  text-align: left;
+}
+  table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+
+}
+
+.historical{
+  font-family: sans-serif;
+  padding: 10px;
+  background:#00FFFF;
+}
+
+.place{
+  border: 1px #000 solid;
+  margin-bottom: 1em;
+  padding: 1em;
+
+}
+
+.place:nth-of-type(odd) img {
+  float: left;
+  margin-right: 1em;
+}
+
+.place:nth-of-type(odd) ul {
+  margin-left: 1em;
+}
+
+.place:nth-of-type(even) img {
+  float: right;
+  margin-left: 1em;
+}
+.place img{
+  border-radius: 50%;
+}
