@@ -1,0 +1,76 @@
+
+body{
+
+  background-color: #D0D3D4;
+  background-image: url('image2.jpg');
+  padding: 30px;
+  background-size: 600px;
+
+}
+.profile{
+  font-family: sans-serif;
+  padding: 30px;
+
+}
+
+.profile h2 {
+  float: left;
+  margin-right: 2em;
+}
+#pic{
+  border-radius: 30%
+}
+
+.clearfix:before, .clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.city{
+  font-family: sans-serif;
+  padding: 30px;
+  text-align: left;
+}
+
+.city img{
+  float:left;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 2em;
+
+}
+.container{
+  height:auto;
+  width: inherit;
+}
+
+.table{
+
+  font-family: cursive;
+  padding: 10px;
+  text-align: left;
+}
+  table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+
+}
+
+.historical{
+  font-family: cursive;
+  padding: 10px;
+}
+
+.historical img{
+  float:left;
+  margin-top:1.5em;
+  margin-bottom: 1.5em;
+  margin-right: 3em;
+  border-radius: 30%
+
+}
