@@ -1,22 +1,26 @@
 
 body{
-  font-family: Arial;
-  padding: 10px;
-  background: green;
+
+  background-color: #D0D3D4;
+  background-image: url('image2.jpg');
+  padding: 30px;
+  background-size: 600px;
+
 }
 .profile{
   font-family: sans-serif;
   padding: 30px;
-  background: lightblue;
+
 }
 
 .profile h2 {
   float: left;
   margin-right: 2em;
 }
-.profile img{
-  border-radius: 50%;
+#pic{
+  border-radius: 30%
 }
+
 .clearfix:before, .clearfix:after{
   content:"";
   display: table;
@@ -26,7 +30,6 @@ body{
 .city{
   font-family: sans-serif;
   padding: 30px;
-  background: pink;
   text-align: left;
 }
 
@@ -34,8 +37,9 @@ body{
   float:left;
   display: inline-block;
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   margin-right: 2em;
+
 }
 .container{
   height:auto;
@@ -43,9 +47,9 @@ body{
 }
 
 .table{
+
   font-family: cursive;
   padding: 10px;
-  background: brown;
   text-align: left;
 }
   table {
@@ -58,31 +62,15 @@ table, td, th {
 }
 
 .historical{
-  font-family: sans-serif;
+  font-family: cursive;
   padding: 10px;
-  background:#00FFFF;
 }
 
-.place{
-  border: 1px #000 solid;
-  margin-bottom: 1em;
-  padding: 1em;
+.historical img{
+  float:left;
+  margin-top:1.5em;
+  margin-bottom: 1.5em;
+  margin-right: 3em;
+  border-radius: 30%
 
-}
-
-.place:nth-of-type(odd) img {
-  float: left;
-  margin-right: 1em;
-}
-
-.place:nth-of-type(odd) ul {
-  margin-left: 1em;
-}
-
-.place:nth-of-type(even) img {
-  float: right;
-  margin-left: 1em;
-}
-.place img{
-  border-radius: 50%;
 }
