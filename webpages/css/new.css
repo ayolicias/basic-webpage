@@ -1,8 +1,26 @@
 body{
-  background-color: #D0D3D4;
-  background-image: url('image.jpg');
+  background-color: #ff9999;
 }
 
 img{
   border-radius: 30%;
+}
+.profile{
+
+}
+h2{
+  color: yellow;
+}
+.city{
+
+}
+h2{
+
+  color:yellow;
+}
+h3{
+  color: green;
+}
+h2{
+  color: red;
 }

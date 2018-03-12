@@ -2,7 +2,7 @@
 body{
 
   /* background-color: #D0D3D4; */
-  background-image: url('image2.jpg');
+  background-color: #99ff33;
   padding: 30px;
   background-size: 600px;
 
@@ -16,6 +16,7 @@ body{
 .profile h2 {
   float: left;
   margin-right: 2em;
+  color: green;
 }
 #pic{
   border-radius: 30%
@@ -31,6 +32,13 @@ body{
   font-family: sans-serif;
   padding: 30px;
   text-align: left;
+
+}
+h3{
+color: green;
+}
+h1{
+  color: red;
 }
 
 .city img{
@@ -55,6 +63,9 @@ body{
   table {
     border-collapse: collapse;
 }
+h2{
+  color: red;
+}
 
 table, td, th {
     border: 1px solid black;
@@ -65,12 +76,23 @@ table, td, th {
   font-family: cursive;
   padding: 10px;
 }
+h2{
+  color: yellow;
+}
+h3{
+  color: green;
+}
 
 .historical img{
-  float:left;
   margin-top:1.5em;
   margin-bottom: 1.5em;
   margin-right: 3em;
   border-radius: 30%
 
 }
+.place{
+  float:left;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 2em;
